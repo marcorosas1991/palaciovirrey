@@ -216,6 +216,7 @@ body {
 
 #slide-1 {
 	background-image: url('../images/bg1.jpg');
+  background-color: #EBE0CD;
 	color: #ffffff;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -233,18 +234,19 @@ body {
 
 #main_logo {
 	padding-top: 0px;
+  min-width: 50%;
 }
 
 @media (max-width: 991px) {
-	#slide-1 {
+	/*#slide-1 {
 		background-position: -70% 0, 170% 0;
-	}
+	}*/
 }
 
 @media (max-width: 767px) {
-	#slide-1 {
+	/*#slide-1 {
 		background-image: none;
-	}
+	}*/
 }
 
 	#home-row-1,
