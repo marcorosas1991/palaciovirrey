@@ -51,7 +51,9 @@ body {
 }
 
 .navbar {
-	background-color: rgba( 217, 218, 222, .85);
+	/*background-color: rgba( 217, 218, 222, .85);*/
+  background-color: #952e2b;
+	color: white;
 	border-bottom: 0 none;
 	font-size: 12px;
 	transition: .25s all linear;
@@ -63,7 +65,7 @@ body {
 }
 
 .navbar .nav a {
-	color: #5f5f5f;
+	color: white;
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 600;
 	transition: all .5 linear;
@@ -95,7 +97,7 @@ body {
 }
 
 .active-menu {
-	background-color: #4e4e4e;
+	background-color: white;
 	content: '.';
 	display: block;
 	height: 5px;
@@ -178,23 +180,23 @@ body {
 
 	.nav li[data-slide="1"],
 	.nav li[data-slide="6"] {
-		background-color: #2f2f2f;
+		background-color: white;
 	}
 
 	.nav li[data-slide="2"] {
-		background-color: #1abc9c;
+		background-color: white;
 	}
 
 	.nav li[data-slide="3"] {
-		background-color: #e74c3c;
+		background-color: white;
 	}
 
 	.nav li[data-slide="4"] {
-		background-color: #34495e;
+		background-color: white;
 	}
 
 	.nav li[data-slide="5"] {
-		background-color: #e67e22;
+		background-color: white;
 	}
 
 	.navbar-brand {
@@ -427,7 +429,7 @@ body {
 	#slide-2 img {
 		height: auto;
 		max-height: 100%;
-		max-width: 100%;
+		min-width: 100%;
 		width: auto;
 	}
 }
@@ -454,6 +456,11 @@ body {
 	background-color: #EBE0CD;
 	color: #black;
 	padding-top: 90px;
+}
+
+#gmap_canvas {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #slide-6 {
@@ -554,14 +561,6 @@ body {
 	right: 10%;
 	width: 80px;
 	z-index: 1000;
-}
-
-#arrows div {
-	background-image: url('../images/website-arrows.png');
-	cursor: pointer;
-	height: 30px;
-	position: absolute;
-	width: 30px;
 }
 
 #arrows div.disabled {
