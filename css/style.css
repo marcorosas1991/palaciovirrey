@@ -397,7 +397,7 @@ body {
 	}
 
 	#slide-2 a,
-	#slide-2 img {
+	#slide-2 img, #slide-6 img {
 		display: inline-block;
 		height: 100%;
 		margin: 0 auto;
@@ -449,8 +449,8 @@ body {
 
 
 #slide-5 {
-	background-color: #f39c12;
-	color: #e4e6e5;
+	background-color: #EBE0CD;
+	color: #black;
 	padding-top: 90px;
 }
 
