@@ -95,6 +95,10 @@ h2, h3, h4 {
 	#historia img {
 		width: 100%;
 	}
+
+	#myCarousel {
+		margin-top: 50px;
+	}
 }
 @media (max-width: 900px) {
 
