@@ -17,6 +17,7 @@ body {
 		font: 400 15px/1.8 Lato, sans-serif;
 		color: #777;
 		background-color: #EBE0CD;
+		width: 100%;
 }
 #main_logo {
 	display:none;
