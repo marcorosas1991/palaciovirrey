@@ -32,10 +32,11 @@ h2, h3, h4 {
 		font-weight: 300;
 		color: black;
 }
-.room_title {
+h2 {
 	color: #952e2b;
-	margin-bottom: -20px;
-	font-size: 1.2em;
+}
+.room_title {
+	margin-bottom: 0px;
 }
 .container {
 		padding: 80px 120px;
@@ -53,6 +54,10 @@ h2, h3, h4 {
 #historia .row {
 	margin-left: 0;
 	margin-right: 0;
+}
+.amenity_icons {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .page_section {
 	margin-top: 50px;
@@ -105,8 +110,7 @@ h2, h3, h4 {
 		margin-top: 50px;
 	}
 }
-@media (max-width: 900px) {
-
+@media (max-width: 992px) {
 	.hide_on_resize_900 {
 		display: none !important;
 	}
@@ -128,7 +132,7 @@ h2, h3, h4 {
 	color: white;
 }
 .enlarge_text {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 .list-group-item:first-child {
 		border-top-right-radius: 0;
@@ -174,6 +178,12 @@ h2, h3, h4 {
 #googleMap {
 		width: 100%;
 		height: 400px;
+}
+ul {
+	list-style-type: none;
+	color: black;
+	margin: 0;
+	padding: 0;
 }
 .navbar {
 		font-family: Montserrat, sans-serif;
