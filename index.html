@@ -22,6 +22,15 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=169210524829";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -145,6 +154,7 @@
     <img id="main_logo" class="img-responsive" src="images/logo_palacio.png" alt="logo">
     <h1>Hotel en Atlixco • Restaurante • Eventos</h1>
     <a class="btn" href="#reservar">Reserva</a>
+    <div class="fb-like" data-href="https://www.facebook.com/palaciodelvirrey/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
   </div>
 
   <!-- Container Habitaciones -->
