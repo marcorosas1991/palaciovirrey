@@ -163,7 +163,7 @@
     <h2>Nuestras <span class="font-semibold">Habitaciones</span> son magníficas</h2>
     <h3>Hospédate en <a target="_blank" href="http://www.atlixco.gob.mx/fiestas-tradicionales">Atlixco, Puebla.</a> El Mejor Clima del Mundo</h3>
 
-    <div class="row text-center">
+    <div class="row text-center menu_habitaciones">
       <div class="col-sm-1">
       </div>
       <div class="col-sm-2 col-xs-6">
@@ -576,7 +576,7 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
 
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, a[href='#myPage'],a[href='#reservar']").on('click', function(event) {
+  $(".navbar a, a[href='#myPage'],a[href='#reservar'] .menu_habitaciones a").on('click', function(event) {
 
     // Prevent default anchor click behavior
     event.preventDefault();
