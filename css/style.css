@@ -57,14 +57,14 @@ h2 {
     padding-bottom: 30px;
 }
 
-#historia img {
+/*#historia img {
     width: 30%;
-}
+}*/
 
-#historia .row {
+/*#historia .row {
     margin-left: 0;
     margin-right: 0;
-}
+}*/
 
 .amenity_icons {
     margin-top: 10px;
@@ -110,6 +110,10 @@ h2 {
     /* make all photos black and white */
 }
 
+.thumbnail h3 {
+  color: #952e2b !important;
+}
+
 @media (max-width: 600px) {
     .carousel-caption {
         display: none;
@@ -122,9 +126,9 @@ h2 {
     .hide_on_resize {
         display: none;
     }
-    #historia img {
+    /*#historia img {
         width: 100%;
-    }
+    }*/
     #myCarousel {
         margin-top: 50px;
     }

@@ -1,616 +1,647 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <title>Hotel en Atlixco - Palacio del Virrey</title>
+    <title>Hotel en Atlixco - Palacio del Virrey</title>
 
-  <meta name="description" content="Hotel en Atlixco: Palacio del Virrey. Hotel, Restaurante, Eventos. Belleza e Historia">
-  <meta name="keywords" content="Hotel,Restaurante,Eventos,Palacio del Virrey,Belleza,Historia,Limpieza">
-  <meta name="author" content="Estudios Vanzzini">
+    <meta name="description" content="Hotel en Atlixco: Palacio del Virrey. Hotel, Restaurante, Eventos. Belleza e Historia">
+    <meta name="keywords" content="Hotel,Restaurante,Eventos,Palacio del Virrey,Belleza,Historia,Limpieza">
+    <meta name="author" content="Estudios Vanzzini">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-  <link rel="icon" type="image/png" href="images/logo_mini.png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/png" href="images/logo_mini.png">
 
 </head>
+
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=169210524829";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=169210524829";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#myPage"><img src="images/logo_white.png" alt="Palacio del Virrey" width="25"/></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="hide_on_resize_900" href="#myPage">INICIO</a></li>
-          <li><a href="#habitaciones">HABITACIONES</a></li>
-          <li><a href="#reservar">RESERVACIONES</a></li>
-          <li><a href="#restaurante">RESTAURANTE</a></li>
-          <li><a href="#eventos">EVENTOS</a></li>
-          <li><a class="hide_on_resize_900" href="#historia">HISTORIA</a></li>
-        </ul>
-      </div>
+                <a class="navbar-brand" href="#myPage"><img src="images/logo_white.png" alt="Palacio del Virrey" width="25" /></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="hide_on_resize_900" href="#myPage">INICIO</a></li>
+                    <li><a href="#reservar">RESERVACIONES</a></li>
+                    <li><a href="#habitaciones">HABITACIONES</a></li>
+                    <li><a href="#restaurante">RESTAURANTE</a></li>
+                    <li><a href="#eventos">EVENTOS</a></li>
+                    <li><a class="hide_on_resize_900" href="#historia">HISTORIA</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/carousel_1.jpg" alt="Arquitectura" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Explora la belleza del Hotel Palacio del Virrey</h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/carousel_2.jpg" alt="Habitación" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Viaja al pasado y hospédate como un virrey</h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/carousel_3.jpg" alt="Amenidades" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Disfruta de nuestras amenidades</h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/carousel_4.jpg" alt="Candado" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Descubre la historia del Hotel Palacio del Virrey</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_5.jpg" alt="Restaurante" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Come y encuéntrate con el pasado</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_6.jpg" alt="Patio principal" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Patio principal del Hotel Palacio del Virrey</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_7.jpg" alt="Patio principal" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Encuéntrate con el pasado y siente la magia del Hotel Palacio del Virrey</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/carousel_8.jpg" alt="Detalle de piedra" width="1200" height="700">
+                <div class="carousel-caption">
+                    <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
+                    <h3>Sorpréndete</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-  </nav>
+    <!-- fin del carrusel -->
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="images/carousel_1.jpg" alt="Arquitectura" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Explora la belleza del Hotel Palacio del Virrey</h3>
-            <p></p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="images/carousel_2.jpg" alt="Habitación" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Viaja al pasado y hospédate como un virrey</h3>
-            <p></p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="images/carousel_3.jpg" alt="Amenidades" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Disfruta de nuestras amenidades</h3>
-            <p></p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="images/carousel_4.jpg" alt="Candado" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Descubre la historia del Hotel Palacio del Virrey</h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/carousel_5.jpg" alt="Restaurante" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Come y encuéntrate con el pasado</h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/carousel_6.jpg" alt="Patio principal" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Patio principal del Hotel Palacio del Virrey</h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/carousel_7.jpg" alt="Patio principal" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Encuéntrate con el pasado y siente la magia del Hotel Palacio del Virrey</h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/carousel_8.jpg" alt="Detalle de piedra" width="1200" height="700">
-          <div class="carousel-caption">
-            <img class="img-responsive logo_in_image" src="images/logo_palacio.png" alt="logo">
-            <h3>Sorpréndete</h3>
-            <p></p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-  </div> <!-- fin del carrusel -->
-
-  <!-- Contenedor Main Logo -->
-  <div id="general_info" class="container-fluid text-center">
-    <img id="main_logo" class="img-responsive" src="images/logo_palacio.png" alt="logo">
-    <h1>Hotel Boutique en Atlixco • Restaurante • Eventos</h1>
-    <a class="btn" href="#reservar">Reserva</a>
-    <br>
-    <div class="fb-like" data-href="https://www.facebook.com/palaciodelvirrey/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
-  </div>
-
-  <div class="col-sm_12">
-    <a class="btn reserve-btn" href="#reservar"><i class="glyphicon glyphicon-info-sign"></i> Reservaciones<br/>e informes<br/>(244) 445 9418</a>
-  </div>
-
-  <!-- Container Habitaciones -->
-  <div id="habitaciones" class="container-fluid page_section text-center">
-    <h2>Nuestras <span class="font-semibold">Habitaciones</span> son magníficas</h2>
-    <h3>Hospédate en <a target="_blank" href="http://www.puebla.travel/es/atlixco">Atlixco, Puebla.</a> El Mejor Clima del Mundo</h3>
-
-    <div class="row text-center menu_habitaciones">
-      <div class="col-sm-1">
-      </div>
-      <div class="col-sm-2 col-xs-6">
-        <a href="#virreinal">
-          <div class="thumbnail">
-            <img src="images/habitaciones/virreinal/espejo.jpg" alt="Espejo">
-          </div>
-          <p>
-            Suite Virreinal
-          </p>
-        </a>
-      </div>
-      <div class="col-sm-2 col-xs-6">
-        <a href="#master">
-          <div class="thumbnail">
-            <img src="images/habitaciones/master/king_size.jpg" alt="King Size">
-          </div>
-          <p>
-            Master Suite
-          </p>
-        </a>
-      </div>
-      <div class="col-sm-2 col-xs-6">
-        <a href="#junior">
-          <div class="thumbnail">
-            <img src="images/habitaciones/junior/cama.jpg" alt="Habitación">
-          </div>
-          <p>
-            Junior Suite
-          </p>
-        </a>
-      </div>
-      <div class="col-sm-2 col-xs-6">
-        <a href="#doble">
-          <div class="thumbnail">
-            <img src="images/habitaciones/doble/cama_2.jpg" alt="Habitación">
-          </div>
-          <p>
-            Habitación Doble/Familiar
-          </p>
-        </a>
-      </div>
-      <div class="col-sm-2 col-xs-6">
-        <a href="#sencilla">
-          <div class="thumbnail">
-            <img src="images/habitaciones/sencilla/cama_916.jpg" alt="Habitación">
-          </div>
-          <p>
-            Habitación Sencilla
-          </p>
-        </a>
-      </div>
-      <div class="col-sm-1">
-      </div>
+    <!-- Contenedor Main Logo -->
+    <div id="general_info" class="container-fluid text-center">
+        <img id="main_logo" class="img-responsive" src="images/logo_palacio.png" alt="logo">
+        <h1>Hotel Boutique en Atlixco<br /> Restaurante • Eventos</h1>
+        <div class="fb-like" data-href="https://www.facebook.com/palaciodelvirrey/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
     </div>
 
-    <!-- Virreinal -->
-    <div id="virreinal" class="row">
-      <h2 class="text-center room_title">Suite <strong>Virreinal</strong></h2>
-      <div id="detallesSuiteVirreinal">
-        <p>Hospédate en los lujos de la época. <br>
-          1 cama King Size, 1 cama individual de Latón.<br>
-          Espejo francés virreinal.<br>
-          Baño completo<br>
-          Bancas.<br>
-          Sillón.</p>
-      </div>
-      <div class="amenity_icons">
-        <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
-      </div>
-
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <img src="images/habitaciones/virreinal/habitacion_1.jpg" alt="Habitación">
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <img src="images/habitaciones/virreinal/espejo.jpg" alt="Espejo">
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <img src="images/habitaciones/virreinal/banio_1.jpg" alt="Baño">
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-6 hide_on_resize">
-        <div class="thumbnail">
-          <img src="images/habitaciones/virreinal/banio_2.jpg" alt="Baño">
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-6 hide_on_resize">
-        <div class="thumbnail">
-          <img src="images/habitaciones/virreinal/2_cama_1.jpg" alt="Segunda Cama">
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-6 hide_on_resize">
-        <div class="thumbnail">
-          <img src="images/habitaciones/virreinal/2_cama_2.jpg" alt="Segunda Cama">
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-6 hide_on_resize">
-        <div class="thumbnail">
-          <img src="images/habitaciones/virreinal/mueble.jpg" alt="Mueble">
-        </div>
-      </div>
-
-      <div class="col-sm_12">
-        <a class="btn" href="#reservar">Reserva</a>
-      </div>
+    <div class="col-sm_12">
+        <a class="btn reserve-btn" href="#reservar"><i class="glyphicon glyphicon-info-sign"></i> Reservaciones<br/>e informes<br/>(244) 445 9418</a>
     </div>
 
+    <!-- Container Reservaciones -->
+    <div id="reservar">
+        <div class="container-fluid page_section text-center">
+            <h2><span class="font-semibold">Reservaciones</span> e informes</h2>
+            <h3>Hotel Boutique • Restaurante • Eventos</h3>
 
-    <!-- Master -->
-    <div id="master" class="row">
-      <h2 class="text-center room_title"><strong>Master</strong> Suite</h2>
-      <div id="detallesMasterSuite">
-        <p>Hospédate en familia y con espacio<br>
-          1 cama King Size<br>
-          2 camas individuales<br>
-          Baño Completo<br>
-          Sillón </p>
-      </div>
-      <div class="amenity_icons">
-        <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
-      </div>
-
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/master/king_size.jpg" alt="King Size">
+            <div class="col-md-12">
+                <p><span class="glyphicon glyphicon-map-marker"></span></p>
+                <h3>5 sur 310.<br>Atlixco, Puebla, México.</h3>
+                <p><span class="glyphicon glyphicon-earphone"></span>Teléfono: +52 </p>
+                <h3>(244) 445 9418</h3>
+                <p><span class="glyphicon glyphicon-envelope"></span> email: </p>
+                <h5 class="enlarge_text"><a href="mailto:contacto@hotelpalaciovirrey.com">contacto@hotelpalaciovirrey.com</a></h5>
+            </div>
+            <div id="googleMap" class="col-md-6"></div>
         </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/master/individuales.jpg" alt="Habitación">
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/master/lampara.jpg" alt="Lámpara">
-        </div>
-      </div>
-      <div class="col-sm-6 hide_on_resize">
-        <div class="thumbnail">
-          <img src="images/habitaciones/master/banio_1.jpg" alt="Baño">
-        </div>
-      </div>
-
-      <div class="col-sm_12">
-        <a class="btn" href="#reservar">Reserva</a>
-      </div>
     </div>
 
-    <!-- Junior -->
-    <div id="junior" class="row">
-      <h2 class="text-center room_title"><strong>Junior</strong> Suite</h2>
-      <div id="detallesJuniorSuite">
+    <!-- Container Habitaciones -->
+    <div id="habitaciones" class="container-fluid page_section text-center">
+        <h2>Nuestras <span class="font-semibold">Habitaciones</span> son magníficas</h2>
+        <h3>Hospédate en <a target="_blank" href="http://www.puebla.travel/es/atlixco">Atlixco, Puebla.</a> El Mejor Clima del Mundo</h3>
+
+        <div class="row text-center menu_habitaciones">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <a href="#virreinal">
+                    <div class="thumbnail">
+                        <img src="images/habitaciones/virreinal/espejo.jpg" alt="Espejo">
+                    </div>
+                    <p>
+                        Suite Virreinal
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <a href="#master">
+                    <div class="thumbnail">
+                        <img src="images/habitaciones/master/king_size.jpg" alt="King Size">
+                    </div>
+                    <p>
+                        Master Suite
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <a href="#junior">
+                    <div class="thumbnail">
+                        <img src="images/habitaciones/junior/cama.jpg" alt="Habitación">
+                    </div>
+                    <p>
+                        Junior Suite
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <a href="#doble">
+                    <div class="thumbnail">
+                        <img src="images/habitaciones/doble/cama_2.jpg" alt="Habitación">
+                    </div>
+                    <p>
+                        Habitación Doble/Familiar
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-2 col-xs-6">
+                <a href="#sencilla">
+                    <div class="thumbnail">
+                        <img src="images/habitaciones/sencilla/cama_916.jpg" alt="Habitación">
+                    </div>
+                    <p>
+                        Habitación Sencilla
+                    </p>
+                </a>
+            </div>
+            <div class="col-sm-1">
+            </div>
+        </div>
+
+        <!-- Virreinal -->
+        <div id="virreinal" class="row">
+            <h2 class="text-center room_title">Suite <strong>Virreinal</strong></h2>
+            <div id="detallesSuiteVirreinal">
+                <p>Hospédate en los lujos de la época. <br> 1 cama King Size, 1 cama individual de Latón.<br> Espejo francés virreinal.<br> Baño completo<br> Bancas.
+                    <br> Sillón.
+                </p>
+            </div>
+            <div class="amenity_icons">
+                <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/virreinal/habitacion_1.jpg" alt="Habitación">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/virreinal/espejo.jpg" alt="Espejo">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/virreinal/banio_1.jpg" alt="Baño">
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 hide_on_resize">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/virreinal/banio_2.jpg" alt="Baño">
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 hide_on_resize">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/virreinal/2_cama_1.jpg" alt="Segunda Cama">
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 hide_on_resize">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/virreinal/2_cama_2.jpg" alt="Segunda Cama">
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 hide_on_resize">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/virreinal/mueble.jpg" alt="Mueble">
+                </div>
+            </div>
+
+            <div class="col-sm_12">
+                <a class="btn" href="#reservar">Reserva</a>
+            </div>
+        </div>
+
+
+        <!-- Master -->
+        <div id="master" class="row">
+            <h2 class="text-center room_title"><strong>Master</strong> Suite</h2>
+            <div id="detallesMasterSuite">
+                <p>Hospédate en familia y con espacio<br> 1 cama King Size<br> 2 camas individuales<br> Baño Completo<br> Sillón </p>
+            </div>
+            <div class="amenity_icons">
+                <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
+            </div>
+
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/master/king_size.jpg" alt="King Size">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/master/individuales.jpg" alt="Habitación">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/master/lampara.jpg" alt="Lámpara">
+                </div>
+            </div>
+            <div class="col-sm-6 hide_on_resize">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/master/banio_1.jpg" alt="Baño">
+                </div>
+            </div>
+
+            <div class="col-sm_12">
+                <a class="btn" href="#reservar">Reserva</a>
+            </div>
+        </div>
+
+        <!-- Junior -->
+        <div id="junior" class="row">
+            <h2 class="text-center room_title"><strong>Junior</strong> Suite</h2>
+            <div id="detallesJuniorSuite">
+                <p>
+                    1 cama King Size<br> Baño Completo<br> Sillón </p>
+            </div>
+            <div class="amenity_icons">
+                <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/junior/cama.jpg" alt="Habitación">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/junior/banio_1.jpg" alt="Baño">
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <a class="btn" href="#reservar">Reserva</a>
+            </div>
+        </div>
+
+        <!-- Doble -->
+        <div id="doble" class="row">
+            <h2 class="text-center room_title">Habitación <strong>Doble/Familiar</strong></h2>
+            <div id="detallesHabitacionDoble">
+                <p>
+                    2 camas matrimoniales ó 1 Cama matrimonial y 1 individual<br> Baño Completo<br>
+            </div>
+            <div class="amenity_icons">
+                <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
+            </div>
+
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/doble/cama_1.jpg" alt="Habitación">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/doble/cama_2.jpg" alt="Habitación">
+                </div>
+            </div>
+
+            <div class="col-sm_12">
+                <a class="btn" href="#reservar">Reserva</a>
+            </div>
+        </div>
+
+        <!-- Sencilla -->
+        <div id="sencilla" class="row">
+            <h2 class="text-center room_title">Habitación <strong>Sencilla</strong></h2>
+            <div id="detallesHabitacionSencilla">
+                <p>
+                    1 cama matrimonial<br> Baño Completo<br>
+            </div>
+            <div class="amenity_icons">
+                <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
+            </div>
+
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/sencilla/cama.jpg" alt="Habitación">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/habitaciones/sencilla/banio.jpg" alt="Habitación">
+                </div>
+            </div>
+
+            <div class="col-sm_12">
+                <a class="btn" href="#reservar">Reserva</a>
+            </div>
+        </div>
+
+        <h3>Amenidades adicionales:</h3>
         <p>
-          1 cama King Size<br>
-          Baño Completo<br>
-          Sillón </p>
-      </div>
-      <div class="amenity_icons">
-        <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
-      </div>
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/junior/cama.jpg" alt="Habitación">
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/junior/banio_1.jpg" alt="Baño">
-        </div>
-      </div>
-
-      <div class="col-sm-12">
-        <a class="btn" href="#reservar">Reserva</a>
-      </div>
+            Jabones • Cremas • Shampoo • Libretas • Chocolates • Costurero • Gorras de baño
+        </p>
     </div>
 
-    <!-- Doble -->
-    <div id="doble" class="row">
-      <h2 class="text-center room_title">Habitación <strong>Doble/Familiar</strong></h2>
-      <div id="detallesHabitacionDoble">
+    <!-- Container Restaurante -->
+    <div id="restaurante" class="bg-1 page_section">
+        <div class="container-fluid text-center">
+            <h2>Restaurante <span class="font-semibold">El Ducado</span></h2>
+            <h3>Disfruta de nuestras instalaciones en un ambiente colonial.</h3>
+            <p>
+                Servicios para huéspedes y previa reservación
+            </p>
+
+            <a class="btn" href="#reservar">Llama</a>
+
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="images/restaurante/1.jpg" alt="Restaurante El Ducado">
+                    </div>
+                </div>
+                <div class="col-sm-4 hide_on_resize">
+                    <div class="thumbnail">
+                        <img src="images/restaurante/3.jpg" alt="Restaurante El Ducado">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="images/restaurante/4.jpg" alt="Restaurante El Ducado">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container Eventos -->
+    <div id="eventos" class="page_section">
+        <div class="container-fluid text-center">
+            <h2><span class="font-semibold">Eventos</span> y actividades</h2>
+            <!-- <h3>Disfruta de la belleza al realizar actividades en el Palacio del Virrey</h3> -->
+            <h3>• Sábados y domingos de yoga</h3>
+            <h3>• Día jardines</h3>
+            <h3>• Fuente octagonal</h3>
+            <h3>• Cocina</h3>
+
+            <div class="row text-center">
+                <div class="col-sm-4 col-xs-2">
+                </div>
+                <div class="col-sm-4 col-xs-8">
+                    <h3>Capilla para Eventos:</h3>
+                    <div class="thumbnail">
+                        <img src="images/eventos/capilla.jpg" alt="Capilla">
+                    </div>
+                    <a class="btn" href="#reservar">Informes</a>
+                </div>
+                <div class="col-sm-4 col-xs-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container Historia -->
+    <div id="historia" class="bg-1 page_section text-center">
+        <h2><span class="font-semibold">Historia</span></h2>
+        <h3>Descubre la historia y belleza del Palacio del Virrey</h3>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="images/historia/virrey.jpg" alt="Virrey">
+                    <div class="caption">
+                        <h3>Duque de Atlixco</h3>
+                        <p>La casa perteneció a José Sarmiento de Valladares (1643 - 1708).
+                            <br /><br /> Conde de Moctezuma y de Tula y Duque de Atrisco; fue el 32° Virrey de la Nueva España. Se casó en primeras nupcias con la tercera condesa de Moctezuma.
+                            <br /><br /> En recompensa por sus servicios al estado, en 1704 el rey Felipe V le concedió el título nobiliario de duque de Atrisco, en 1704 que incluía la autoridad sobre una franja de territorio que iba desde Atlixco hasta
+                            el mar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="images/historia/escudo.jpg" alt="Escudo">
+                    <div class="caption">
+                        <h3>Antiguo escudo de armas</h3>
+                        <p>El escudo lee: ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="images/historia/patio_principal.jpg" alt="Patio">
+                    <div class="caption">
+                        <h3>Arquitectura</h3>
+                        <p>La casa cuenta... </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="images/historia/cabeza.jpg" alt="Cabeza">
+                    <div class="caption">
+                        <h3>Arquitectura</h3>
+                        <p>La casa cuenta... </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="images/historia/entrada.jpg" alt="Entrada">
+                    <div class="caption">
+                        <h3>Arquitectura</h3>
+                        <p>La casa cuenta... </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="images/historia/torre.jpg" alt="Torre">
+                    <div class="caption">
+                        <h3>Restauración</h3>
+                        <p>La casa cuenta... </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Add Google Maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        var myCenter = new google.maps.LatLng(18.907668, -98.436853);
+
+        function initialize() {
+            var mapProp = {
+                center: myCenter,
+                zoom: 15,
+                scrollwheel: false,
+                draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+                clickable: true,
+                visible: true,
+                title: "Hotel Palacio del Virrey",
+                icon: 'images/pin_logo.png'
+            });
+
+
+            marker.setMap(map);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <a class="up-arrow" href="#myPage" title="inicio">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>©2017 Hotel Palacio del Virrey</p>
         <p>
-          2 camas matrimoniales ó 1 Cama matrimonial y 1 individual<br>
-          Baño Completo<br>
-      </div>
-      <div class="amenity_icons">
-        <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
-      </div>
-
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/doble/cama_1.jpg" alt="Habitación">
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/doble/cama_2.jpg" alt="Habitación">
-        </div>
-      </div>
-
-      <div class="col-sm_12">
-        <a class="btn" href="#reservar">Reserva</a>
-      </div>
-    </div>
-
-    <!-- Sencilla -->
-    <div id="sencilla" class="row">
-      <h2 class="text-center room_title">Habitación <strong>Sencilla</strong></h2>
-      <div id="detallesHabitacionSencilla">
+            íconos informativos diseñados por Freepik
+        </p>
         <p>
-          1 cama matrimonial<br>
-          Baño Completo<br>
-      </div>
-      <div class="amenity_icons">
-        <img src="images/svg_icons/aminities_icons.svg" alt="wifi" height="25">
-      </div>
+            <a target="_blank" href="http://www.vanzzini.com">Estudios Vanzzini</a>
+        </p>
+    </footer>
 
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/sencilla/cama.jpg" alt="Habitación">
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="thumbnail">
-          <img src="images/habitaciones/sencilla/banio.jpg" alt="Habitación">
-        </div>
-      </div>
+    <script>
+        $(document).ready(function() {
+            // Initialize Tooltip
+            $('[data-toggle="tooltip"]').tooltip();
 
-      <div class="col-sm_12">
-        <a class="btn" href="#reservar">Reserva</a>
-      </div>
-    </div>
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, a[href='#myPage'],a[href='#reservar'], .menu_habitaciones a").on('click', function(event) {
 
-    <h3>Amenidades adicionales:</h3>
-    <p>
-      Jabones • Cremas • Shampoo • Libretas • Chocolates • Costurero • Gorras de baño
-    </p>
-  </div>
+                // Prevent default anchor click behavior
+                event.preventDefault();
 
-  <!-- Container Reservaciones -->
-  <div id="reservar" class="bg-1">
-    <div class="container-fluid page_section text-center">
-      <h2><span class="font-semibold">Reservaciones</span> e informes</h2>
-      <h3>Hotel Boutique • Restaurante • Eventos</h3>
+                // Store hash
+                var hash = this.hash;
 
-      <div class="col-md-12">
-        <p><span class="glyphicon glyphicon-map-marker"></span></p><h3>5 sur 310.<br>Atlixco, Puebla, México.</h3>
-        <p><span class="glyphicon glyphicon-earphone"></span>Teléfono: +52 </p><h3>(244) 445 9418</h3>
-        <p><span class="glyphicon glyphicon-envelope"></span> email: </p><h5 class="enlarge_text"><a href="mailto:contacto@hotelpalaciovirrey.com">contacto@hotelpalaciovirrey.com</a></h5>
-      </div>
-      <div id="googleMap" class="col-md-6"></div>
-    </div>
-  </div>
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1000, function() {
 
-  <!-- Container Restaurante -->
-  <div id="restaurante" class="page_section">
-    <div class="container-fluid text-center">
-      <h2>Restaurante <span class="font-semibold">El Ducado</span></h2>
-      <h3>Disfruta de nuestras instalaciones en un ambiente colonial.</h3>
-      <p>
-        Servicios para huéspedes y previa reservación
-      </p>
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            });
+        })
+    </script>
 
-      <a class="btn" href="#reservar">Llama</a>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      <div class="row text-center">
-        <div class="col-sm-4">
-          <div class="thumbnail">
-            <img src="images/restaurante/1.jpg" alt="Restaurante El Ducado">
-          </div>
-        </div>
-        <div class="col-sm-4 hide_on_resize">
-          <div class="thumbnail">
-            <img src="images/restaurante/3.jpg" alt="Restaurante El Ducado">
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="thumbnail">
-            <img src="images/restaurante/4.jpg" alt="Restaurante El Ducado">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Container Eventos -->
-  <div id="eventos" class="page_section bg-1">
-    <div class="container-fluid text-center">
-      <h2><span class="font-semibold">Eventos</span> y actividades</h2>
-      <!-- <h3>Disfruta de la belleza al realizar actividades en el Palacio del Virrey</h3> -->
-      <h3>• Sábados y domingos de yoga</h3>
-      <h3>• Día jardines</h3>
-      <h3>• Fuente octagonal</h3>
-      <h3>• Cocina</h3>
-
-      <div class="row text-center">
-        <div class="col-sm-4 col-xs-2">
-        </div>
-        <div class="col-sm-4 col-xs-8">
-          <h3>Capilla para Eventos:</h3>
-          <div class="thumbnail">
-            <img src="images/eventos/capilla.jpg" alt="Capilla">
-          </div>
-          <a class="btn" href="#reservar">Informes</a>
-        </div>
-        <div class="col-sm-4 col-xs-2">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Container Historia -->
-  <div id="historia" class="page_section text-center">
-    <h2><span class="font-semibold">Historia</span></h2>
-    <h3>Descubre la historia y belleza del Palacio del Virrey</h3>
-
-    <div class = "row">
-      <div class="col-sm-12">
-        <h2>Antiguo escudo de armas.</h2>
-        <div class="">
-          <img src="images/historia/escudo.jpg" alt="Escudo">
-        </div>
-      </div>
-
-      <div class="col-sm-12">
-        <h2>La casa perteneció a José Sarmiento de Valladares.<br> 32° Virrey de la Nueva España.</h2>
-        <div class="">
-          <img src="images/historia/virrey.jpg" alt="Virrey">
-        </div>
-      </div>
-
-      <div class="col-sm-12">
-        <h2>Patio principal del Palacio del Virrey</h2>
-        <div class="">
-          <img src="images/historia/patio_principal.jpg" alt="Patio">
-        </div>
-      </div>
-
-      <div class="col-sm-12">
-        <h2>Detalle de piedra incrustada</h2>
-        <div class="">
-          <img src="images/historia/cabeza.jpg" alt="Cabeza">
-        </div>
-      </div>
-
-      <div class="col-sm-12">
-        <h2>Antigua entrada principal</h2>
-        <div class="">
-          <img src="images/historia/entrada.jpg" alt="Entrada">
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-<!-- Add Google Maps -->
-<script src="http://maps.googleapis.com/maps/api/js"></script>
-<script>
-var myCenter = new google.maps.LatLng(18.907668, -98.436853);
-
-function initialize() {
-var mapProp = {
-center:myCenter,
-zoom:15,
-scrollwheel:false,
-draggable:false,
-mapTypeId:google.maps.MapTypeId.ROADMAP
-};
-
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-position:myCenter,
-clickable:true,
-visible:true,
-title:"Hotel Palacio del Virrey",
-icon: 'images/pin_logo.png'
-});
-
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-
-<!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage"  title="inicio">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
-  <p>©2017 Hotel Palacio del Virrey</p>
-  <p>
-    íconos informativos diseñados por Freepik
-  </p>
-  <p>
-    <a target="_blank" href="http://www.vanzzini.com">Estudios Vanzzini</a>
-  </p>
-</footer>
-
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip();
-
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, a[href='#myPage'],a[href='#reservar'], .menu_habitaciones a").on('click', function(event) {
-
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 1000, function(){
-
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-    });
-  });
-})
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75162450-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-75162450-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </body>
+
 </html>
