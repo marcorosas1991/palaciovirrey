@@ -57,15 +57,6 @@ h2 {
     padding-bottom: 30px;
 }
 
-/*#historia img {
-    width: 30%;
-}*/
-
-/*#historia .row {
-    margin-left: 0;
-    margin-right: 0;
-}*/
-
 .amenity_icons {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -126,9 +117,6 @@ h2 {
     .hide_on_resize {
         display: none;
     }
-    /*#historia img {
-        width: 100%;
-    }*/
     #myCarousel {
         margin-top: 50px;
     }
